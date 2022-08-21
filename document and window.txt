@@ -1,0 +1,16 @@
+Window Object and  Document Object often look alike and confusing?
+A clear understanding of Browser Object Model and Document Object Model resolves the problem.
+
+Document Object Model (DOM):
+When a webpage is loaded, the browser creates a Document Object Model of the page .The 'document object' represents the whole html document as tree. The root element is the html document. With the help of  'document objects' , we can add dynamic to content to our page. The document object has several properties and methods. They can be accessed by
+Syntax: document.property_name;
+              document.method_name;
+The document object can also be accessed with window.document or just document.
+
+Browser Object Model (BOM):
+The Browser Object Model contains objects that represent the current browser  window or tab. The top most object in the BOM is the window object representing the window or tab or iframe sometimes.The window object is supported by all browsers . All global JavaScript object, functions and variable automatically become members of window object. Global variables are properties of window object.Global function are methods of window object. BOM also have several  properties and methods.
+Syntax:window.property_name;
+window.method_name;
+Quick Notes:
+Window - It is the first thing that gets loaded into the browser. The Window object has majority of the properties like length ,innerWidth and so on..
+Document- The document object is our html ,aspx , php or other document that will be loaded into the browser. The document actually gets loaded into the window object and has properties to it like cookies URL etc..
